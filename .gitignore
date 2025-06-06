@@ -1,0 +1,56 @@
+# .NET build artifacts
+bin/
+obj/
+TestResults/
+*.nupkg
+*.snupkg
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+.vsconfig
+
+# Visual Studio Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Azure Functions local settings
+local.settings.json
+
+# Archivos de configuración y entorno .NET
+appsettings.*.json
+secrets.json
+
+# Archivos de configuración y entorno Angular
+.env
+.env.*
+.angular.env.json
+
+# Angular build artifacts
+/dist/
+/out-tsc/
+/node_modules/
+
+# Angular IDE files
+.angular/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Package lock files (opcional, si no quieres subirlos)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

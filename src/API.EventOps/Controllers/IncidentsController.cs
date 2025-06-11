@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Shared.EventOps.Dto;
+using Shared.EventOps.Dto.Incident;
 using Shared.EventOps.Result;
 namespace API.EventOps.Controllers
 {

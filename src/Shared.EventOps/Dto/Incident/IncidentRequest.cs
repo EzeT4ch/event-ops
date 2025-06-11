@@ -1,4 +1,4 @@
-﻿namespace Shared.EventOps.Dto
+﻿namespace Shared.EventOps.Dto.Incident
 {
     public class IncidentRequest
     {

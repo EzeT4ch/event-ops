@@ -1,6 +1,7 @@
 ﻿using Application.EventOps.Interfaces;
 using Microsoft.Extensions.Logging;
 using Shared.EventOps.Dto;
+using Shared.EventOps.Dto.Incident;
 using Shared.EventOps.Result;
 namespace Application.EventOps.Services
 {
@@ -13,7 +14,7 @@ namespace Application.EventOps.Services
             throw new NotImplementedException();
         }
 
-        public Task<List<IncidentRequest>> GetIncidents()
+        public Task<GridResponse<IncidentResponse>> GetIncidents()
         {
             throw new NotImplementedException();
         }

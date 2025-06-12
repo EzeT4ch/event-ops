@@ -5,7 +5,7 @@ namespace Application.EventOps.Interfaces
 {
     public interface IIncidentService
     {
-        public Task<Result<string, string>> CreateIncident(IncidentRequest incident);
-        public Task<GridResponse<IncidentResponse>> GetIncidents(); // TODO: Define a DTO for IncidentResponse
+        public Result<string, string> CreateIncident(IncidentRequest incident);
+        public GridResponse<IncidentResponse> GetIncidents();
     }
 }

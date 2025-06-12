@@ -7,6 +7,9 @@ public static class Startup
 {
     public static IServiceCollection AddServices(this IServiceCollection services)
     {
+        // Register AutoMapper profiles
+        services.AddAutoMapper(typeof(Startup).Assembly);
+        
         // Register application services
         services.AddScoped(typeof(IIncidentService), typeof(IncidentServices));
         
